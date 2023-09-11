@@ -1,0 +1,24 @@
+.products-filter{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    li a{
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        color: $gray;
+        text-transform: uppercase;
+        margin-right: 8px;
+        border-bottom: 3px solid transparent;
+        &.active{
+            border-color: $aquaColor;
+            color: $primary;
+        }
+        &:hover{
+            color: $primary;
+        }
+    }
+    
+}

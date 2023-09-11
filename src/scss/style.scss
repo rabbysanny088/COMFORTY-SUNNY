@@ -1,0 +1,22 @@
+// base
+@import './base/reset';
+@import './base/typography';
+
+// Variables
+@import './utils/variables';
+
+// components
+@import './comporents/button';
+@import './comporents/header';
+@import './comporents/quick-feature';
+@import './comporents/product';
+@import './comporents/top_catergories';
+@import './comporents/filter_menu';
+@import './comporents/filter_menu';
+@import './comporents/client';
+@import './comporents/logo-cloud';
+@import './comporents/responsive';
+@import './comporents/footer';
+
+// pages
+@import './pages/home';
