@@ -343,6 +343,7 @@
 
  .footer-main{
     .footer-input{
+        margin-right: 20px;
         h3{
             margin-top: 20px;
         }
@@ -357,10 +358,15 @@
     
      .catagroy-item{
         
-        margin-top: 20px;
+        h3{
+            
+    margin-top: 22px;
+
+        }
     
      }
  }
+
 
  .section-header {
     h3{
@@ -459,6 +465,18 @@
     
     
     }
+
+
+        .products-filter{
+            li{
+                a{
+                   
+    font-size: 11px;
+    margin-right: 3px;
+
+                }
+            }
+        }
     
     .footer-main{
         p{
