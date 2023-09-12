@@ -1,21 +1,24 @@
-.footer-main{
+.footer-main {
     background-color: $lightShade;
     margin-top: 90px;
     border-bottom: 1px solid rgb(220, 214, 214);
     margin-bottom: 23px;
     width: 100%;
     height: auto;
-    .main{
+
+    .main {
         padding-top: 57px;
     }
-    p{
+
+    p {
         color: $color;
         font-size: 16px;
         font-weight: 400;
         margin: 24px 0;
     }
-    .footer-icon{
-        i{
+
+    .footer-icon {
+        i {
             border-radius: 50%;
             padding: 9px;
             margin-right: 5px;
@@ -23,26 +26,29 @@
             transition: all .3s ease-in-out;
             cursor: pointer;
         }
-        i:hover{
+
+        i:hover {
             background-color: #007580;
             color: #fff;
-        }    
-        
-        .facebook-i{
+        }
+
+        .facebook-i {
             border: 1px solid $color;
             color: $color;
         }
     }
 
-    .catagroy-item{
-        h3{
+    .catagroy-item {
+        h3 {
             font-size: 14px;
             font-weight: 500;
             color: $gray;
         }
-        li{
+
+        li {
             list-style: none;
-            a{
+
+            a {
                 font-size: 16px;
                 font-weight: 400;
                 color: $primary;
@@ -50,29 +56,33 @@
         }
     }
 
-    .footer-input{
-        h3{
+    .footer-input {
+        h3 {
             font-size: 14px;
             font-weight: 500;
             color: $gray;
         }
-        input{
+
+        input {
             padding: 12px 16px;
             padding-right: 40px;
             border-radius: 5px;
             border: 0;
             font-size: 16px;
             text-transform: capitalize;
-            box-sizing: border-box;;
-                background-color: #FFFFFF;
-            &::placeholder{
+            box-sizing: border-box;
+            ;
+            background-color: #FFFFFF;
+
+            &::placeholder {
                 font-size: 16px;
                 font-weight: 500;
                 // color: #fff;
                 // padding: 20px;
             }
         }
-        .footer-btn{
+
+        .footer-btn {
             background-color: #029FAE;
             border-radius: 8px;
             color: #fff;
@@ -86,7 +96,8 @@
             margin-top: 20px;
         }
     }
-    .footer-number{
+
+    .footer-number {
         display: flex;
         justify-content: space-between;
         align-items: center;
